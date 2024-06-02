@@ -1,0 +1,37 @@
+[project]
+name = "aggregator"
+version = "0.1.0"
+description = "Агрегация событий из шины данных"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name="Pavel"}
+]
+dependencies = [
+    "aiohttp>=3.8.4",
+    "loguru>=0.6.0",
+    "vabus==0.0.1"
+]
+test = [
+    "pytest>=7.2.1",
+    "pytest-asyncio>=0.18.3"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+# Полные настройки для ruff
+line-length = 88
+select = ["E", "F", "W", "C90", "N", "B", "Q"]
+ignore = ["E501", "W503", "W504"]
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+    "__pycache__",
+    "migrations"
+]
