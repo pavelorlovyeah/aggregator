@@ -13,4 +13,4 @@ ENV VABUS_URL=http://host:port
 ENV STORAGE_TYPE=postgres
 ENV AGGREGATION_INTERVAL=60
 
-CMD ["python", "main.py"]
+CMD ["python", "/app/main.py"]
