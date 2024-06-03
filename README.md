@@ -29,3 +29,11 @@ Dockerfile
 pyproject.toml
 README.md
 ```
+
+## Установка
+
+### Клонирование репозитория
+```bash
+git clone https://github.com/pavelorlovyeah/aggregator.git
+cd aggregator
+```
