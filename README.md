@@ -11,20 +11,21 @@
 ## Структура проекта
 ```
 /aggregator
-    /app
-        __init__.py
-        aggregator.py
-        metrics.py
-        storage.py
-        vabus.py
-        main.py
-    /tests
-        __init__.py
-        test_aggregator.py
-        test_metrics.py
-        test_storage.py
-        test_vabus.py
-    Dockerfile
-    pyproject.toml
-    README.md
+    /src
+        /aggregator
+            __init__.py
+            aggregator.py
+            main.py
+            metrics.py
+            service.py
+            storage.py
+            vabus.py
+        /tests
+            test_aggregator.py
+            test_metrics.py
+            test_storage.py
+            test_vabus.py
+Dockerfile
+pyproject.toml
+README.md
 ```
