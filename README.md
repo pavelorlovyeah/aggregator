@@ -31,7 +31,6 @@ README.md
 ```
 
 ## Установка
-
 ### Клонирование репозитория
 ```bash
 git clone https://github.com/pavelorlovyeah/aggregator.git
@@ -39,8 +38,14 @@ cd aggregator
 ```
 
 ### Установка зависимостей
-
 #### Используя `pip` и `setuptools`
 ```bash
 pip install .
+```
+
+## Запуск
+### Локально
+Для запуска сервиса локально, выполните:
+```bash
+python src/aggregator/main.py
 ```
