@@ -77,7 +77,7 @@ pytest
 - `AGGREGATION_INTERVAL`: Интервал времени для агрегации событий в секундах (по умолчанию 60 секунд)
 ### Пример конфигурации и запуска сервиса:
 ```bash
-export VABUS_URL=http://localhost:8080
+export VABUS_URL=http://localhost:8000
 export STORAGE_TYPE=postgres
 export AGGREGATION_INTERVAL=60
 
