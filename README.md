@@ -90,5 +90,4 @@ python src/aggregator/main.py
 Павел Орлов https://github.com/pavelorlovyeah
 
 ## Лицензия
-Этот проект лицензируется на условиях лицензии MIT. Подробности см. в файле [LICENSE](LICENSE).
-```
+MIT
