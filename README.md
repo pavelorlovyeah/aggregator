@@ -37,3 +37,10 @@ README.md
 git clone https://github.com/pavelorlovyeah/aggregator.git
 cd aggregator
 ```
+
+### Установка зависимостей
+
+#### Используя `pip` и `setuptools`
+```bash
+pip install .
+```
