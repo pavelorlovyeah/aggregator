@@ -49,3 +49,16 @@ pip install .
 ```bash
 python src/aggregator/main.py
 ```
+
+### С использованием Docker
+Для запуска сервиса в Docker-контейнере, выполните следующие шаги:
+
+1. **Сборка Docker-образа:**
+   ```bash
+   docker build -t aggregator .
+   ```
+
+2. **Запуск Docker-контейнера:**
+   ```bash
+   docker run -d -p 8000:8000 aggregator
+   ```
